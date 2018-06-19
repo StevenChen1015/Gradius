@@ -10,7 +10,7 @@ import javax.swing.Timer;
 public class GradiusComp extends JComponent {
 
 	private final static int GAME_TICK = 1000 / 60;
-	private static int ASTEROID_MAKE_TICK = 1000;
+	private static int ASTEROID_MAKE_TICK = 500;
 
 	private final static int SHIP_INIT_X = 10;
 	private final static int SHIP_INIT_Y = Gradius.HEIGHT / 3;
@@ -169,7 +169,7 @@ public class GradiusComp extends JComponent {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param degree
 	 * @param shots
 	 */
